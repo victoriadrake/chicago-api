@@ -1,0 +1,21 @@
+{
+    "name": "chicago-api",
+    "version": "1.0.0",
+    "description": "Turns strings into Chicago-style titles.",
+    "main": "index.js",
+    "dependencies": {
+        "@types/node": "^13.9.0",
+        "title-case": "^3.0.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^25.1.4",
+        "jest": "^25.1.0",
+        "ts-jest": "^25.2.1",
+        "typescript": "^3.8.3"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Victoria Drake",
+    "license": "ISC"
+}
