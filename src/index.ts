@@ -1,6 +1,6 @@
 import * as http from "http"
 import titleCase from "./chicago-title";
-const port = 8080
+const port = process.argv[2] || 8080
 
 const reqHandler = (req, res) => {
     console.log(req.url)

@@ -1,6 +1,6 @@
-![Jest status badge](https://github.com/victoriadrake/chicago-api/workflows/jest/badge.svg)
-
 # Chicago API: Chicago-Style Title Capitalization
+
+![Jest status badge](https://github.com/victoriadrake/chicago-api/workflows/jest/badge.svg)
 
 A Node.js server that tries to be helpful by capitalizing your title string in something _probably pretty close to_ title case according to the Chicago Manual of Style.
 
@@ -22,7 +22,11 @@ Run server locally:
 node dist/index.js
 ```
 
-The port is `8080`. TODO: take an argument.
+The port is `8080` by default. You can specify one instead by appending it:
+
+```sh
+node dist/index.js 5432
+```
 
 In another terminal, send your title string as `title` query parameter, for example:
 
